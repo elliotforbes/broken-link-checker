@@ -1,6 +1,6 @@
 #!/bin/sh -l
+set -euox
 
-echo "Hello $1"
-echo "Hello $2"
-time=$(date)
-echo "::set-output name=time::$time"
+go get -u github.com/raviqqe/muffet
+
+muffet $1
