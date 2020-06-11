@@ -2,6 +2,8 @@
 
 This action trawls a deployed website and crawls the site looking for broken links before producing a report.
 
+This uses the [raviqqe/muffet](https://github.com/raviqqe/muffet) tool in order to rapidly crawl a website for these broken links.
+
 ## Inputs
 
 ### `url`

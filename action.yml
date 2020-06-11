@@ -8,11 +8,7 @@ inputs:
     url:
         description: 'The root URL of the website you wish to crawl'
         required: true
-        default: ''
-    ignorePatterns:
-        description: 'String patterns that you wish to ignore'
-        required: false
-        default: ''
+        default: 'https://...'
 outputs:
     result:
         description: 'A Report of all broken links'
@@ -21,4 +17,3 @@ runs:
     image: 'Dockerfile'
     args:
         - ${{ inputs.url }}
-        - ${{ inputs.ignorePatterns }}

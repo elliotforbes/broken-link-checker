@@ -1,6 +1,6 @@
-#!/bin/sh -l
+#!/bin/sh 
 set -euox
 
 go get -u github.com/raviqqe/muffet
 
-muffet $1
+muffet -v $1
