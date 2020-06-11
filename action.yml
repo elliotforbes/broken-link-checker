@@ -1,4 +1,4 @@
-name: 'Broken Link Checker'
+name: 'Broken Web Link Checker'
 description: 'This action traverses all of the pages of a given website and checks to see if they are valid working links'
 author: 'Elliot Forbes'
 branding:
