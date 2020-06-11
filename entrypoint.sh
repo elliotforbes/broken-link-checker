@@ -1,5 +1,5 @@
 #!/bin/sh 
-set -euox
+set -euo
 
 go get -u github.com/raviqqe/muffet
 
